@@ -17,7 +17,7 @@ compatibility_date = "2025-03-01"
 [[d1_databases]]
 binding = "DB"
 database_name = "temp_mail"
-database_id = ""  # 需要替换为您的实际数据库 ID
+database_id = "7a5bdb5f-0d70-45b7-b805-7e82caabf22d"  # 需要替换为您的实际数据库 ID
 
 # 配置邮件处理
 [triggers]
@@ -28,5 +28,5 @@ command = "" # 使用默认打包，不需要自定义构建命令
 
 # 默认开启日志，方便调试
 [observability]
-enabled = enabled
+enabled = true
 head_sampling_rate = 1 # optional. default = 1.
